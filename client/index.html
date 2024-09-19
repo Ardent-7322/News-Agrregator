@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Character encoding for the document -->
     <meta charset="UTF-8" />
+
+    <!-- Viewport settings for responsive design (makes sure it looks good on all devices) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title of the web page that appears in the browser tab -->
     <title>News App</title>
+
+    <!-- Importing custom fonts from Google Fonts -->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freeman&display=swap');
-      </style>
+      /* This imports two fonts: Bebas Neue and Freeman for styling text on the page */
+    </style>
+
+    <!-- Font Awesome for using icons easily -->
     <script src="https://kit.fontawesome.com/222cea3eed.js"></script>
-<script src="https://code.iconify.design/1/1.0.4/iconify.min.js">   </script>
+    <!-- This script includes Font Awesome icons which we can use for adding icons to our page -->
+
+    <!-- Iconify for using various icons -->
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <!-- This script includes Iconify, a library for using a wide range of icons -->
   </head>
-  <body class="">
+
+  <body>
+    <!-- The main content of the page will be rendered here -->
     <div id="root"></div>
+    <!-- This is where our React app will be mounted -->
+
+    <!-- Importing and running the main JavaScript file for our app -->
     <script type="module" src="/src/main.jsx"></script>
+    <!-- This script tag tells the browser to load our main JavaScript file (written in JSX) for the app -->
   </body>
 </html>

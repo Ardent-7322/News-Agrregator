@@ -1,5 +1,60 @@
-*{
-    margin : 0; 
-    padding : 0; 
-    box-sizing: border-box;
+body.light-theme {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+body.dark-theme {
+  background-color: #212529;
+  color: #e9ecef;
+}
+
+header.light-theme {
+  background-color: #343a40;
+}
+
+header.dark-theme {
+  background-color: #495057;
+}
+
+.down-arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+.down-arrow-icon-active {
+  transform: rotate(180deg);
+}
+
+/* Default (Light Theme) */
+.down-arrow-icon {
+    color: black;
+  }
+  
+  /* Dark Theme */
+  .dark-theme .down-arrow-icon {
+    color: white;
+  }
+  
+
+.ham-burger {
+  cursor: pointer;
+}
+
+.ham-burger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #fff;
+  margin: 4px 0;
+}
+
+.ham-open .line-1 {
+  transform: rotate(45deg) translate(5px, 6px);
+}
+
+.ham-open .line-2 {
+  opacity: 0;
+}
+
+.ham-open .line-3 {
+  transform: rotate(-45deg) translate(5px, -6px);
 }
